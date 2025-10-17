@@ -25,3 +25,4 @@ jobs:
         if: always()
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          avatar_url: ${{ secrets.AVATAR_URL }}
